@@ -38,7 +38,7 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 ######  1.1 vue打包css 图片路径不对问题问题
 
-   解决方法 ：
+    解决方法 ：
 
     修改 utils.js 中的 if(options.axtract){...}可解决build css bg img 加载路径不对问题
       
@@ -57,7 +57,7 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 ###### 1.1.2  vue 打包上线，页面空白问题
 
-解决方法：
+    解决方法：
 ``` bash
 		  1. config / index.js 中  assetsPublicPath: '',
 		  2. router中  base: '',
@@ -65,15 +65,15 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 ```
 ##### 	1.2 跨越问题
 
-  解决方法：
+    解决方法：
 
-  方法1. 修改后天请求头部	  
-			
-  方法2. 
-			config --> index.js  
-			将 proxyTable : {}
+    方法1. 修改后天请求头部	  
 
-  修改为 
+    方法2. 
+        config --> index.js  
+        将 proxyTable : {}
+
+    修改为 
 ```javascript
 			proxyTable: {
 				        '/api': {
@@ -85,7 +85,7 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 				        }
 				    },
 ```
-			axios 请求：
+		axios 请求：
 ```javascript
 				axios({
 
