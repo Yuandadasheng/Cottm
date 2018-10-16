@@ -41,7 +41,7 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 		解决方法 ：
 
 			修改 utils.js 中的 if(options.axtract){...}可解决build css bg img 加载路径不对问题
-			```javascript
+```javaScript
 			 if (options.extract) {
 		        return ExtractTextPlugin.extract({
 		        use: loaders,
@@ -51,7 +51,7 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 		    } else {
 		      return ['vue-style-loader'].concat(loaders)
 		    }
-			```
+```
 		    参考： https://blog.csdn.net/qq_22648203/article/details/79539537
 
 		1.1.2  vue 打包上线，页面空白问题
