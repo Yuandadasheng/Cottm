@@ -53,7 +53,7 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
       return ['vue-style-loader'].concat(loaders)
     }
 ```
-		    参考： https://blog.csdn.net/qq_22648203/article/details/79539537
+[参考](https://blog.csdn.net/qq_22648203/article/details/79539537)
 
 ###### 1.1.2  vue 打包上线，页面空白问题
 
