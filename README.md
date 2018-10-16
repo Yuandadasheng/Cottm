@@ -41,6 +41,7 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 		解决方法 ：
 
 			修改 utils.js 中的 if(options.axtract){...}可解决build css bg img 加载路径不对问题
+      
 ```javaScript
 			 if (options.extract) {
 		        return ExtractTextPlugin.extract({
@@ -57,11 +58,11 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 		1.1.2  vue 打包上线，页面空白问题
 
 		解决方法：
-		``` bash
+``` bash
 		  1. config / index.js 中  assetsPublicPath: '',
 		  2. router中  base: '',
 		  3. router中 'mode': 'history',需要注释
-		```
+```
 	1.2 跨越问题
 
 		解决方法：
@@ -73,7 +74,7 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 			将 proxyTable : {}
 
 			修改为 
-			```javascript
+```javascript
 			proxyTable: {
 				        '/api': {
 				            target: 'http://www.cottm.cn/',
@@ -83,9 +84,9 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 				            }
 				        }
 				    },
-			```
+```
 			axios 请求：
-			```javascript
+```javascript
 				axios({
 
 					method: 'get',
@@ -96,28 +97,28 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 					(res)=>{
 
 						})
-			```
+```
 			缺点： 打包上线时，路径需要修改
 			
 			方法3. 
 				在方法2 基础上修改	
 
 				config --> dev.env.js 	  
-				```javascript
+```javascript
 				module.exports = merge(prodEnv, {
 				  NODE_ENV: '"development"',
 				  API_HOST: '"/api"' // 配置代理路径的符号，增加的内容
 				})
-  				```
+```
   				config --> prod.env.js
-				```javascript
+```javascript
   				module.exports = {
 				  NODE_ENV: '"production"',
 				  API_HOST: '"http://www.cottm.cn/"' // 生产环境地址，增加的内容
 				}
-				```
+```
 				axios 请求：
-				```javascript
+```javascript
 				axios({
 
 					method: 'get',
@@ -125,11 +126,11 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 					
 				}).then(
 					(res)=>{})
-				```
+```
 	1.3 改变路由中参数做请求
 		
 		解决方法：
-		```javascript
+```javascript
 		beforeRouteEnter (to, from, next) {
 	   
 
@@ -164,4 +165,4 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 		    	
 			   
 			},	
-		```	
+```	
