@@ -34,9 +34,9 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 #### * 项目中遇到问题
 	
-#####  * 打包问题
+#####  *  打包问题
 
-#######   * vue打包css 图片路径不对问题问题
+######  *   vue打包css 图片路径不对问题问题
 
 		解决方法 ：
 
