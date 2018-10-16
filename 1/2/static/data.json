@@ -1,0 +1,598 @@
+{
+	"header":{
+		"logo":"static/images/logo/logo-cottm-2019.png",
+		"ShiftLogo":"static/images/flag-English.png",
+		"title":"中国出境旅游交易会",
+		"timePlace":"2019年4月15-17日, 北京全国农业展览馆（新馆）",
+		"but":"业内观众注册",
+		"reminder":"网上预先注册免费参观，现场注册收费50元/人"
+	},
+	"navList":[
+		{
+			"name" :"首页",
+			"url" : "/home",
+			"childrenList":""
+		},{
+			"name" :"参展信息",
+			"url"  :  "/WhyParticipation",
+			"childrenList":[
+				{
+					"name" : "为何参展?",
+					"url" : "/WhyParticipation"
+				},{
+					"name" : "我要参展",
+					"url"  : "/AlreadyExhibition"
+				},{
+					"name" : "展商手册",
+					"url"  :  "#exhibition-brochure"
+				},{
+					"name" : "赞助机会",
+					"url"  :  "/Sponsorship"
+				},{
+					"name" : "场地",
+					"url"  : "/place"
+				},{
+					"name" : "签证邀请和酒店",
+					"url"  : "/VisaInvitationHotel"
+ 				}
+			]
+		},{
+			"name" :"展商名录",
+			"childrenList":"",
+			"url"  :  "#Exhibitor-list"
+		},{
+			"name" :"参观信息",
+			"url"  :  "/WhyVisit",
+			"childrenList":[
+				{
+					"name" : "为何参观?",
+					"url"  :  "/WhyVisit"
+				},{
+					"name" : "谁来参观",
+					"url"  :  "/WhoVisit"
+				},{
+					"name" : "如何参观",
+					"url"  :  "/HowVisit"
+				},{
+					"name" : "买家及合作伙伴评价",
+					"url"  :  "/Evaluation"
+				}
+			]
+
+		},{
+			"name" :"新闻中心",
+			"url"  :  "/Media",
+			"childrenList":[
+				{
+					"name" : "媒体注册",
+					"url"  :  "/Media"
+				},{
+					"name" : "展会新闻",
+					"url"  :  "/ExhibitionNews"
+				},{
+					"name" : "媒体图片及资料下载",
+					"url"  :  "/MediaInfo"
+				},{
+					"name" : "展会营销",
+					"url"  :  "/ExhibitionMarketing"
+				},{
+					"name" : "行业新闻",
+					"url"  :  "/TradeNews"
+				}
+			]
+		},{
+			"name" :"展会日程",
+			"url"  :  "/Conference2019",
+			"childrenList":""
+		},{
+			"name" :"买家报名",
+			"url"  :  "/Buyers",
+			"childrenList":[
+				{
+					"name" : "VIP 买家",
+					"url"  :  "#VIP-buyers"
+				},{
+					"name" : "高端/奢华买家",
+					"url"  :  "#High-end/luxury-buyers"
+				}
+			]
+		},{
+			"name" :"展会特色",
+			"url"  :  "/Meeting",
+			"childrenList":[
+				{
+					"name" : "COTTM会议",
+					"url"  :  "/Meeting"
+				},{
+					"name" : "COTTM2019高端旅游",
+					"url"  :  "/HighEndTourism"
+				},{
+					"name" : "COTTM2019 “主题旅行/定制游”展区",
+					"url"  :  "/ExhibitionArea"
+				},{
+					"name" : "COTTM Online",
+					"url"  :  "/Online"
+				}
+			]
+		},{
+			"name" :"赞助商",
+			"childrenList":"",
+			"url"  :  "/Sponsors"
+		},{
+			"name" :"合作伙伴",
+			"url"  :  "/TopOperators",
+			"childrenList":[
+				{
+					"name" : "中国出境旅游顶级运营商",
+					"url"  :  "/TopOperators"
+				},{
+					"name" : "支持机构",
+					"url"  :  "/SupportedBy"
+				},{
+					"name" : "会议合作伙伴",
+					"url"  :  "/ConferencePartner"
+				},{
+					"name" : "技术服务商",
+					"url"  :  "/ServiceProvider"
+				},{
+					"name" : "国内媒体",
+					"url"  :  "/DomesticMedia"
+				},{
+					"name" : "国外媒体",
+					"url"  :  "/ForeignMedia"
+				}
+			]
+		},{
+			"name" :"COTTM Online",
+			"childrenList":"",
+			"url"  :  "/Online"
+		},{
+			"name" :"COTTM 会议",
+			"url"  :  "/Conference2019",
+			"childrenList":[
+				{
+					"name" : "2019COTTM会议日程",
+					"url"  :  "/Conference2019"
+				},{
+					"name" : "2018COTTM会议日程",
+					"url"  :  "/Conference2018"
+				},{
+					"name" : "2017COTTM会议日程",
+					"url"  :  "/Conference2017"
+				}
+			]
+		},{
+			"name" :"联系我们",
+			"url"  :  "/ContactUs",
+			"childrenList":[
+				{
+					"name" : "联系我们",
+					"url"  :  "/ContactUs"
+				},{
+					"name" : "关于组织者",
+					"url"  :  "/AboutOrganization"
+				}
+			]
+		}
+	],
+	"home":{
+		"banner":{
+			"name" : "banner",
+			"bg-images" : "static/images/banner/water-bg.jpg",
+			"images-c" : "static/images/banner/c.png",
+			"images-d" : "static/images/banner/d.png",
+			"banner-imges" : "static/images/banner/Cottm-2019-banner.png",
+			"btu" : "Find out how"
+		},
+		"conent":{
+			"title":"COTTM-中国领先的出境旅游行业展会",
+			"text" : "作为中国唯一专注于出境游和B2B的专业展会，COTTM自2005年创办以来已连续成功举办十四届，见证着出境旅游的繁荣和发展。 COTTM始终专注于不断增长的中国出境旅游和旅行市场，以促进中国出境旅游发展为自身使命，架起了中国与世界旅游业交流与合作的桥梁。COTTM已成为业界运营时间最长和最受尊重的出境旅游行业交流平台。2019年将迎来其第十五届。",
+			"video" :{
+				"title" : "COTTM 2017 展会视频",
+				"url" : "static/video/2017COTTMOnsiteVideo.mp4"
+			},
+			"publicity":[
+				{
+					"name" : "exhibitors",
+					"title" : "为何参展",
+					"imgUrl" : "static/images/home/cottm-img1.png" ,
+					"btuText" : "参展COTTM的理由",
+					"url" :" "
+				},{
+					"name" : "datum",
+					"title" : "媒体图片资料",
+					"imgUrl" : "static/images/home/cottm-img2.png" ,
+					"btuText" : "点击此处下载",
+					"url" :" "
+				},{
+					"name" : "publicity",
+					"title" : "COTTM2019宣传手册",
+					"imgUrl" : "static/images/home/cottm-img3b.png" ,
+					"btuText" : "点击此处获取",
+					"url" :" "
+				}
+			]
+		},
+		"news":{
+			"name" : "COTTM 新闻",
+			"newsBtus" : "查看所有新闻",
+			"details" : "详情 》",
+			"newsList" :[{
+				"name" : "中国出境旅游交易会在京举行 出境游市场愈发细分",
+				"time" : "2018-6-29",
+				"newsUrl" : ""
+			},{
+				"name" : "COTTM2018:中国出境旅游交易会规模再创新高",
+				"time" : "2018-6-29",
+				"newsUrl" : ""
+			},{
+				"name" : "第十四届中国出境旅游交易会(COTTM2018)在京举办",
+				"time" : "2018-6-29",
+				"newsUrl" : ""
+			},{
+				"name" : "在COTTM上，我们和外旅局聊了聊2018",
+				"time" : "2018-6-29",
+				"newsUrl" : ""
+			},{
+				"name" : "中国出境游市场引力十足",
+				"time" : "2018-6-29",
+				"newsUrl" : ""
+			},{
+				"name" : "新老目的地同台竞技",
+				"time" : "2018-6-29",
+				"newsUrl" : ""
+			},{
+				"name" : "杨·瓦乌日尼亚克:波兰期待更多中国年轻游客的到来",
+				"time" : "2018-6-29",
+				"newsUrl" : ""
+			},{
+				"name" : "哈桑·伊卜拉欣:全新的卡塔尔体验期待着中国游客发现",
+				"time" : "2018-6-29",
+				"newsUrl" : ""
+			},{
+				"name" : "玛丽亚·拉博维奇:你会爱上塞尔维亚的多元文化、高性价比",
+				"time" : "2018-6-29",
+				"newsUrl" : ""
+			}]
+		},
+		"Logos":{
+			"sponsor":[{
+				"name":"主办单位",
+				"imgUrl" : "static/images/logo/sponsor/tarsus.png"
+			}],
+			"support":[{
+				"name" : "支持单位",
+				"imgUrl" : [
+					{
+						"name" : "ecty",
+						"url" : "static/images/logo/support/ecty.png"
+					},{
+						"name" : "european",
+						"url" : "static/images/logo/support/european.png"
+					},{
+						"name" : "visiteurope",
+						"url" : "static/images/logo/support/visiteurope.png"
+					},{
+						"name" : "etoa",
+						"url" : "static/images/logo/support/etoa.png"
+					},{
+						"name" : "china",
+						"url" : "static/images/logo/support/china102.png"
+					},{
+						"name" : "pata",
+						"url" : "static/images/logo/support/pata.png"
+					},{
+						"name" : "onta",
+						"url" : "static/images/logo/support/onta.png"
+					},{
+						"name" : "ata",
+						"url" : "static/images/logo/support/ata.png"
+					},{
+						"name" : "WelcomeChines",
+						"url" : "static/images/logo/support/WelcomeChines.jpg"
+					}
+				]
+			}],
+			"GoldSponsor":[{
+				"name" :"COTTM2018金牌赞助",
+				"imgUrl" : "static/images/logo/partner/1.png"
+			}],
+			"StrategicPartner":[{
+				"name" :"COTTM战略合作伙伴",
+				"imgUrl" :[
+					"static/images/logo/partner/fliggy1.png",
+					"static/images/logo/partner/1.png"
+
+				] 
+			}],
+			"TechnicalPartner":[{
+				"name" :"COTTM Online 技术合作伙伴",
+				"imgUrl" : "static/images/logo/partner/rtic1.png"
+			}],
+			"AirlinePartners":[{
+				"name" :"COTTM2018航空公司合作伙伴",
+				"imgUrl" : "static/images/logo/partner/aa-logo_12.png"
+			}],
+			"CooperativePartner":[{
+				"name" : "中国出境游顶级运营商合作伙伴",
+				"imgUrl" : [
+					"static/images/logo/partner/p1.jpg",
+					"static/images/logo/partner/p2.jpg",
+					"static/images/logo/partner/p3.jpg",
+					"static/images/logo/partner/p4.jpg",
+					"static/images/logo/partner/p5.jpg",
+					"static/images/logo/partner/p6.jpg",
+					"static/images/logo/partner/p7.jpg",
+					"static/images/logo/partner/p8.jpg",
+					"static/images/logo/partner/p9.jpg",
+					"static/images/logo/partner/p10.jpg",
+					"static/images/logo/partner/p11.jpg",
+					"static/images/logo/partner/p12.jpg",
+					"static/images/logo/partner/p13.jpg",
+					"static/images/logo/partner/p14.jpg",
+					"static/images/logo/partner/p15.jpg",
+					"static/images/logo/partner/p16.jpg",
+					"static/images/logo/partner/p17.jpg",
+					"static/images/logo/partner/p18.jpg"
+				] 
+			}]
+
+		}
+	},
+	"footer":{
+		"QuickLinks":{
+			"title":"快速链接",
+			"lists":{
+				"left":[
+					{
+						"name":"参展问询",
+						"iconTop" : "-295",
+						"url" :"" 
+					},{
+						"name":"开幕时间和场地",
+						"iconTop" : "-355",
+						"url" :"" 
+					},{
+						"name":"酒店预订",
+						"iconTop" : "-415",
+						"url" :"" 
+					},{
+						"name":"旅行信息",
+						"iconTop" : "-475",
+						"url" :"" 
+					},{
+						"name":"赞助机会",
+						"iconTop" : "-534",
+						"url" :"" 
+					}
+				],
+				"right":[
+					{
+						"name":"联系我们",
+						"iconTop" : "5",
+						"url" :"" 
+					},{
+						"name":"关主微信",
+						"iconTop" : "-115",
+						"url" :"" 
+					},{
+						"name":"关注微博",
+						"iconTop" : "-238",
+						"url" :"" 
+					},{
+						"name":"加入我们",
+						"iconTop" : "-175",
+						"url" :"" 
+					},{
+						"name":"订阅咨询",
+						"iconTop" : "-55",
+						"url" :"" 
+					}
+				]
+			}
+		},
+		"copyright":"All Rights Reserved 未经许可不得转载、复制、摘登或结集出版 版权所有 塔苏斯集团有限公司 Tarsus Group ",
+		"filing":"沪ICP备10020732号"
+	},
+	"WhyParticipation":{
+		"title" : "为何参展？",
+		"desc" :[
+			"自2006年以来，中国出境游人次平均每年增长13%。",
+			"自2012年开始，中国一直保持着世界最大出境旅游市场的地位。"
+			],
+		"content":[
+			{
+				"img" : "static/images/ExhibitorsInformation/2.jpg",
+				"title": "为什么中国出境旅游市场如此重要",
+				"desc" :[
+					"国家主席习近平向联合国世界旅游组织第22届全体大会致贺词时指出，旅游是不同国家、不同文化交流互鉴的重要渠道，是发展经济、增加就业的有效手段，也是提高人民生活水平的重要产业。习近平强调，中国高度重视发展旅游业，旅游业对中国经济和就业的综合贡献率已超过10%。未来5年，中国将有7亿人次出境旅游。（来源：新华社）",
+					"据中国旅游研究院（CTA）统计数据显示，2013年，中国出境旅游人数超过9800万人次，旅游花费超过1280亿美元；2014年，中国出境游市场首次过亿，达到1.07亿人次，旅游花费896.4亿美元；2015年，中国出境旅游人数达到1.17亿人次，旅游花费1045亿美元。随着中国出境旅游人数的不断增多和中国游客消费能力的不断提高，越来越多的国家开始着力吸引中国游客，以带动本国旅游业的发展和经济增长。（来源：www.ctaweb.org）",
+					"据中国旅游研究院报告数据表明，2016年，中国出境游人次为1.22亿，比上年增长了4.3%，达到历史最高点，接近日本全国人口。2016年，中国全面进入大旅游消费时代，中国出境游游客的消费总额高达1098亿美元，相比2015年，增加了5.1%。（来源：www.ctaweb.org）"
+				]
+			},
+			{
+				"img": "static/images/ExhibitorsInformation/1.jpg",
+				"title" : "参展COTTM 理由：",
+				"desc" : [
+					"COTTM是一场真正意义上的全球目的地的聚会。",
+					"COTTM2017汇集了来自全球70个国家/地区的近450家展商到中国首都—北京。",
+					"COTTM作为一个完美的平台将中国出境旅游产业链上的产品和服务展示给潜在的业内观众/买家。",
+					"COTT2017吸引了超过4500位中国业内观众/买家前来参观/采购，比去年同比增长18%，其中95%的观众/买家表示将继续出席COTTM2018。",
+					"COTTM是中国唯一专注于出境游和B2B的专业展会。参展COTTM将是出境游产品的服务供应商见到专业观众/买家的有效途径。",
+					"“COTTM会议”邀请行业大咖演讲和研讨，并组织为观众/买家提供实践操作知识的 “目的地推介会议”； 这些行业学习型活动使得出境游产品的服务供应商对中国出境行业的发展趋势和消费者需求有了更深刻的理解。"
+				],
+				"btu":[{
+					"text" : "展商名录"
+				}]
+			}
+		]
+	},
+	"Sponsorship":{
+		"title": "赞助机会",
+		"desc" : "想要在参展商中脱颖而出？以下赞助将提供给您机会。",
+		"content" :[
+			{
+				"img" : "static/images/ExhibitorsInformation/3.jpg",	
+				"text": [
+					"每一位参展商都在互相竞争以吸引参观者的注意！其实这并不难做到。将观众们吸引到您的展位，并确保他们记住了您的品牌。",
+					"COTTM赞助机会将能给您的公司、您的品牌和产品进行最有效的宣传。它们富有成本效益、种类多样，希望您不要错过",
+					"如商谈关于上述赞助机会的价格以及详情，请致电中国区联系人"
+				],
+				"contact":{
+					"phone" : "+86-21-6439 6310",
+					"Email" :"shu@tarsus.co.uk"
+				}
+			}
+		],
+		"second":{
+			"title":"赞助机会包括：",
+			"list" : [
+				"电子信函推广",
+				"网站广告",
+				"直邮广告",
+				"“特邀买家”项目",
+				"挂绳",
+				"展会现场注册区",
+				"会刊广告",
+				"演讲机会",
+				"手提袋",
+				"插页(放置于手提袋内)",
+				"展会现场“您现在此处”指示牌"
+			]
+		}
+ 	},
+ 	"place":{
+ 		"title" : "场地",
+ 		"site" : "北京全国农业展览馆（新馆）",
+ 		"traffic":[
+ 			{
+ 				"name" : "地址：",
+ 				"disc" : "北京朝阳区东三环北路16号"
+ 			},
+ 			{
+ 				"name" : "交通方式：",
+ 				"disc" : "地铁10号线(农业展览馆地铁D1口)"
+ 			}
+ 		],
+ 		"text" : "北京全国农业展览馆（新馆）位于北京市东三环北路农展桥东侧，地理位置优越，交通十分便利，四通八达，没有其他展览场馆普遍存在的“交通管制”。 从馆区开车到北京国际机场，只需20分钟。展览馆地处首都繁华的国际商贸区，与外交使馆一路之隔。"
+ 	},
+ 	"VisaInvitationHotel":{
+ 		"title": "签证邀请和酒店",
+ 		"text1":"若您是我们的参展商并需要我",
+ 		"text2":"下载、填妥该表格，将其发送给表格中的指定联系人",
+ 		"list" :[
+ 			{
+ 				"name": "签证邀请函 ",
+ 				"content" : "主办方出具签证邀请函，请",
+ 				"url" : ""
+ 			},
+ 			{
+ 				"name": "酒店预定 ",
+ 				"content" : "我们协助订酒店，请 ",
+ 				"url" : ""
+ 			}
+ 		]
+ 		
+ 		
+ 	},
+ 	"WhyVisit":{
+ 		"title" : "为何参观？",
+ 		"text" :  "第十四届中国出境旅游交易会（COTTM2018）是COTTM有史以来规模最大的一次展会，本届展会汇集了来自全球70个国家/地区的450多等前来参展，包括诸多通过COTTM平台首次进入中国市场的新兴目的地国家/地区，如：卡塔尔国家旅游局（COTTM2018金牌赞助商）、阿尔巴尼亚、摩尔多瓦、波兰、罗马尼亚、苏丹等。",
+ 		"list":[
+ 			{
+ 				"title" : "您参观COTTM的理由:",
+ 				"type" : "reason",
+ 				"contentList" : [
+					"自70个成熟和新兴的旅游目的地",
+					"汇集全球诸多新兴旅游目的地如非洲、南美和东欧等高端、独特、新颖供应商参展",
+					"诸多首次参展COTTM的境外供应商已与众多中国出境旅游运营商进行了合作",
+					"COTTM推出的“COTTM会议”品牌邀请行业大咖演讲和研讨，并组织为观众/买家提供实践操作知识的 “目的地推介会议”；参加这些行业教育活动可使您对中国出境行业发展趋势和消费者需求有更深刻的理解，并对目的地资源及资讯有更多的认知",
+					"中国旅游研究院将发布其出境旅游年度报告",
+					"\"高端/奢华旅行\"展区将集中推介高端旅行产品",
+					"COTTM2019 “主题旅行/定制游”展区将集中推介“狩猎旅行”、“旅游技术”、“医疗旅游”、“体育旅游”等中高端主题定制旅行产品"
+				]
+ 			},
+ 			{
+ 				"title" : "COTTM2018展商来自以下目的地国家/地区:",
+ 				"type" : "Addr",
+ 				"contentList" : [
+					"阿尔巴尼亚",
+					"厄瓜多尔 ",
+					"意大利 ",
+					"蒙古 ",
+					"俄罗斯 ",
+					"泰国 ",
+					"亚美尼亚 ",
+					"爱沙尼亚 ",
+					"日本 ",
+					"摩洛哥 ",
+					"卢旺达 ",
+					"突尼斯 ",
+					"澳大利亚 ",
+					"法国 ",
+					"哈萨克斯坦 ",
+					"尼泊尔 ",
+					"塞尔维亚 ",
+					"土耳其 ",
+					"阿塞拜疆 ",
+					"芬兰 ",
+					"吉尔吉斯斯坦", 
+					"新西兰", 
+					"塞舌尔", 
+					"土库曼斯坦", 
+					"孟加拉国", 
+					"德国", 
+					"拉脱维亚", 
+					"阿曼", 
+					"新加坡", 
+					"乌克兰", 
+					"白俄罗斯", 
+					"加纳", 
+					"立陶宛", 
+					"巴基斯坦", 
+					"南非", 
+					"阿联酋", 
+					"不丹", 
+					"格鲁吉亚", 
+					"马达加斯加", 
+					"巴勒斯坦", 
+					"韩国", 
+					"英国", 
+					"巴西", 
+					"圭亚那", 
+					"马拉维", 
+					"秘鲁", 
+					"西班牙", 
+					"美国", 
+					"加拿大", 
+					"冰岛 ",
+					"马里 ",
+					"菲律宾 ",
+					"斯里兰卡 ",
+					"乌兹别克斯坦 ",
+					"古巴 ",
+					"印度 ",
+					"马尔代夫 ",
+					"波兰 ",
+					"苏丹 ",
+					"津巴布韦 ",
+					"捷克 ",
+					"伊朗 ",
+					"墨西哥 ",
+					"卡塔尔 ",
+					"苏里南 ",
+					"埃及 ",
+					"以色列 ",
+					"摩尔多瓦 ",
+					"罗马尼亚 ",
+					"坦桑尼亚"
+					]				
+ 			}
+ 		],
+ 		"imgUrl":[
+ 			"static/images/WhyVisit/img_000.jpg",
+ 			"static/images/WhyVisit/img_001.jpg"
+ 		]
+ 	}
+	
+}
