@@ -34,13 +34,13 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 #### 项目中遇到问题
 	
-#####    1.打包问题
+#####  1.打包问题
 
-######    1.1 vue打包css 图片路径不对问题问题
+######  1.1 vue打包css 图片路径不对问题问题
 
->>>解决方法 ：
+   解决方法 ：
 
->>>>>修改 utils.js 中的 if(options.axtract){...}可解决build css bg img 加载路径不对问题
+    修改 utils.js 中的 if(options.axtract){...}可解决build css bg img 加载路径不对问题
       
 ``` javaScript
 			 if (options.extract) {
@@ -55,25 +55,25 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 ```
 		    参考： https://blog.csdn.net/qq_22648203/article/details/79539537
 
-		1.1.2  vue 打包上线，页面空白问题
+###### 1.1.2  vue 打包上线，页面空白问题
 
-		解决方法：
+解决方法：
 ``` bash
 		  1. config / index.js 中  assetsPublicPath: '',
 		  2. router中  base: '',
 		  3. router中 'mode': 'history',需要注释
 ```
-	1.2 跨越问题
+##### 	1.2 跨越问题
 
-		解决方法：
+  解决方法：
 
-			方法1. 修改后天请求头部	  
+  方法1. 修改后天请求头部	  
 			
-			方法2. 
+  方法2. 
 			config --> index.js  
 			将 proxyTable : {}
 
-			修改为 
+  修改为 
 ```javascript
 			proxyTable: {
 				        '/api': {
