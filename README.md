@@ -32,15 +32,15 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 采用vue + vuex + bootstrap-Vue + webpack + vue-router + axios + stylus + vue-video 
 
-#### * 项目中遇到问题
+#### 项目中遇到问题
 	
-#####  *  打包问题
+#####    1.打包问题
 
-######  *   vue打包css 图片路径不对问题问题
+######    1.1 vue打包css 图片路径不对问题问题
 
-		解决方法 ：
+>>>解决方法 ：
 
-			修改 utils.js 中的 if(options.axtract){...}可解决build css bg img 加载路径不对问题
+>>>>>修改 utils.js 中的 if(options.axtract){...}可解决build css bg img 加载路径不对问题
       
 ``` javaScript
 			 if (options.extract) {
