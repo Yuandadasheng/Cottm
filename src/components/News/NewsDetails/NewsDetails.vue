@@ -158,6 +158,10 @@ export default {
 .text-p
 	span
 		color #333333 !important
+  img
+		max-width 450px
+		width 100% !important	
+		height auto !important
 .NewsUrl
 	color #a01c5e !important
 	cursor pointer	
